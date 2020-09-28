@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:onlineproject/tools/app_tools.dart';
 
 class SignUP extends StatefulWidget {
+  SignUP({Key key}) : super(key: key);
+
   @override
   _SignUPState createState() => _SignUPState();
 }
@@ -11,11 +13,13 @@ class _SignUPState extends State<SignUP> {
   TextEditingController phonenumber = new TextEditingController();
   TextEditingController email = new TextEditingController();
   TextEditingController password = new TextEditingController();
+  // ignore: non_constant_identifier_names
   TextEditingController re_password = new TextEditingController();
   
   final scaffoldKey = new GlobalKey<ScaffoldState>();
   BuildContext context;
-
+  bool vis = true;
+  
   @override
   Widget build(BuildContext context) {
      this.context = context;
@@ -111,8 +115,9 @@ class _SignUPState extends State<SignUP> {
       return;
     }
 
-  displayProgressDialog(context);
-  
+  displayProgressDialog(context);  
  }
+ 
+
 }
 

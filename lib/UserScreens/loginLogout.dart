@@ -53,7 +53,7 @@ class _LoginState extends State<Login> {
             appButton(
                 btnTxt: "Login",
                 onBtnclicked: veryfyLoggin,
-                
+                                
                 btnPadding: 20.0,
                 btnColor: Theme.of(context).primaryColor),
             new GestureDetector(

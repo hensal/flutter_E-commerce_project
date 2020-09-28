@@ -4,7 +4,7 @@ import 'package:onlineproject/models/loginmodel.dart';
 
 class APIService {
   Future<LoginResponseModel> login(LoginRequestModel requestModel) async {
-    String url = "https://onlinepasal.herokuapp.com/account/login/";
+    String url = "https://onlinepasal.herokuapp.com/account/login";
     
     final response = await http.post(url, body: requestModel.toJson());
     if (response.statusCode == 200 || response.statusCode == 400) {
