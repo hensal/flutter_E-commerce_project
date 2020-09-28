@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
-
 import 'package:onlineproject/UserScreens/loginLogout.dart';
 import 'package:onlineproject/UserScreens/aboutUs.dart';
 import 'package:onlineproject/UserScreens/notifications.dart';
@@ -81,7 +80,7 @@ class _ProfileState extends State<Profile> {
             title: new Text("Profile settings"),
              onTap: () {
                 Navigator.of(context).push(new CupertinoPageRoute(
-                    builder: (BuildContext context) => new Login()));
+                    builder: (BuildContext context) => new LoginPage()));
               },
           ),
           new Divider(),
@@ -110,7 +109,7 @@ class _ProfileState extends State<Profile> {
               title: new Text("Login"),
               onTap: () {
                 Navigator.of(context).push(new CupertinoPageRoute(
-                    builder: (BuildContext context) => new Login()));
+                    builder: (BuildContext context) => new LoginPage()));
               },
             )
         ],

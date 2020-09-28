@@ -1,8 +1,8 @@
 import 'package:http/http.dart' as http;
 import 'dart:convert';
-import 'package:onlineproject/models/loginmodel.dart';
+//import 'package:onlineproject/models/loginmodel.dart';
 
-class APIService {
+/*class APIService {
   Future<LoginResponseModel> login(LoginRequestModel requestModel) async {
     String url = "https://onlinepasal.herokuapp.com/account/login";
     
@@ -17,3 +17,4 @@ class APIService {
     }
   }
 }
+*/
