@@ -33,14 +33,14 @@ dependencies:
   shared_preferences: ^0.5.10
   footer: ^0.0.3
   logger: ^0.9.3
-  dio: ^3.0.10
+  dio: ^5.0.3
   fluttertoast: ^7.1.1
   form_helper_annotations: ^0.0.2
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  http: ^0.12.2
+  http: ^0.13.5
     
 
 # For information on the generic Dart part of this file, see the
